@@ -190,3 +190,22 @@ Free to use. Made for the community. Improved by the community.
 Enjoy!
 
 — Rynzler
+
+
+Credits and Acknowledgements
+
+This project builds on previous community work and would not have been possible without the work of other TDU2 developers.
+
+Original save-editing technology and database work:
+
+* Sivenesis – TDU2SaveFileToolkit
+
+Related community development:
+
+* Project Paradise 2 – TDU2 Savegame Editor
+
+The original TDU2SaveFileToolkit is distributed under the MIT License. Its original copyright and licence notices are acknowledged and retained where applicable. Please see THIRD-PARTY-NOTICES.md for further information.
+
+My contribution to this project is the Garage & Casino Editor application, its interface, additional functionality, presentation, testing, documentation and community-focused improvements.
+
+This is a free, non-commercial community project. I have no intention of claiming credit for the original work of other developers, and I welcome corrections, contributions and suggestions from the TDU2 community.
