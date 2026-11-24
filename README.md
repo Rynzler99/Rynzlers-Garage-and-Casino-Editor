@@ -1,52 +1,180 @@
-# Rynzler's Garage & Casino Editor  (v1.1.1)
+Rynzler’s Garage & Casino Editor
 
-A Test Drive Unlimited 2 / Project Paradise 2 save utility: browse your garages by house and slot, apply Stage 4 upgrades, edit mileage, money, Casino chips and coupons, unlock Casino VIP, and (optionally) try the "Strange Flag" repair.
+Free Test Drive Unlimited 2 Save Editor
 
-## Quick start (Windows)
+After many hours of development, testing and refinement, I’m pleased to share Rynzler’s Garage & Casino Editor — a free save-editing tool created for the Test Drive Unlimited 2 community.
 
-1. **Install Python 3.8 or newer** from <https://www.python.org/downloads/> (tick **"Add python.exe to PATH"**). The installer's *tcl/tk* option provides the window toolkit and is on by default. **Nothing else needs installing** – there are no extra packages.
-2. **Extract the whole ZIP** and keep the folder together.
-3. **Close Test Drive Unlimited 2**, then copy your entire profile folder somewhere safe as your own backup.
-4. **Double-click `Launch_Rynzlers_Garage_and_Casino_Editor.bat`.**
-5. Press **Open save…** and choose your save file:  
-   `…\savegame\<YourProfile>\PLAYERSAVE\DATA`  
-   (normally inside *Documents\Test Drive Unlimited 2\savegame*). The profile name is taken from the folder name.
-6. Make your edits, then press **Save changes**. A verified backup is made first. Start the game and check.
+Whether you’re returning to TDU2 for another playthrough, managing a large collection of vehicles, or wanting to revisit Casino content that is no longer easily accessible, this editor gives you a straightforward way to make selected changes to your existing save.
 
-If the launcher can't find Python or tkinter it tells you so. You can also run `py Rynzlers_Garage_and_Casino_Editor.py` from a Command Prompt in this folder.
+It has been developed with TDU2 and Project Paradise 2 players in mind, with a focus on useful features, straightforward operation and protecting your existing progress.
 
-## What it does
+⸻
 
-- **Garage Editor** – vehicles grouped by house (Ibiza and Hawaii) with numbered slots and upgrade badges; Stage 4 for one vehicle, a whole garage or every owned vehicle; odometer editing; change a slot's vehicle by archetype ID (cars you already own only).
-- **Casino & Player** – player money, Casino chips, Casino coupons, Casino VIP unlock (original behaviour), Casino cosmetics and reward-car flags presets.
-- **Casino DLC / TDU Life Repair** – *optional*. Changes `Driver.MustClearOnlineDatas` from 4 to 0 and nothing else. It is only offered when the value is exactly 4, makes a backup first and verifies the result. It helped fix missing Casino access / Casino DLC / TDU Life problems for the author, but it is **not guaranteed** to fix every player's problem.
-- **Safety** – every save to disk checks the data, makes a verified backup (`DATA.backup-<date>-<time>` next to your save), writes atomically, re-reads the file and rolls back automatically if anything is wrong. **More ▾ → Restore a backup…** puts a backup back (your current file is kept as `DATA.before-restore-…`). **More ▾ → Verify save file** re-checks the file on disk. **More ▾ → Save as new file…** writes a copy instead of overwriting.
+FREE DOWNLOAD — NO SUBSCRIPTION OR PAYMENT REQUIRED
 
-It cannot add cars, remove garage slots or edit text.
+I’ve put a considerable amount of time into developing and testing this tool, and I’m happy to make it available to other players completely free of charge.
 
-## Updating the vehicle / house lists
+The editor is designed to make targeted changes to selected save-data values rather than unnecessarily rewriting unrelated career progress.
 
-`cars_database.json`, `houses_database.json` and `vehicle_classes.json` are read from this folder when you open a save. Replace or extend them (same file names, same structure) – no program change is needed. A vehicle only needs `"id"` and `"name"` to be recognised. The **Information** screen shows which data files were loaded.
+It includes automatic backups, save validation, verification and a restore option. Nevertheless, you should always keep your own backup of your original save.
 
-`garage_list.csv` is a reference list of the author's 206 vehicles (house, position, slot, ID, upgrades, odometer). Open it from **More ▾ → Open garage_list.csv**.
+⸻
 
-## Known limits
+WHY I MADE IT
 
-- Four vehicles could not be matched to a specific house: two Lexus LFA (Mililani Haven of Peace) and the Bugatti Divo / EB110SS (Kaukonahua Home). They show as an "Unrecognised house" rather than a guess.
-- Vehicle classes are no longer shown in the Garage Editor. `vehicle_classes.json` (100 of the author's 206 vehicles classed) stays in the folder for possible future use; the program still loads it but does not display it.
-- Use at your own risk. Always keep your own backup of the profile folder.
+TDU2 is a fantastic game, but starting another playthrough or unlocking certain content can involve a considerable amount of time.
 
-## Files
+The Casino is a good example. Some of its original online progression is no longer available in the same way it once was, making certain rewards and features difficult to access.
 
-| File | Purpose |
-|---|---|
-| `Rynzlers_Garage_and_Casino_Editor.py` | The editor |
-| `tdu2_tool.py` | Save decrypt / encrypt / checksum engine (also a command-line tool) |
-| `cars_database.json` | Vehicle names by archetype ID |
-| `houses_database.json` | House names, islands and sizes |
-| `vehicle_classes.json` | Vehicle class data (A1, B4, …) – kept for future use, not displayed |
-| `garage_list.csv` | Reference list of the author's 206 vehicles |
-| `Launch_Rynzlers_Garage_and_Casino_Editor.bat` | Windows launcher |
-| `DEVELOPMENT_REPORT.md` | What changed, what was tested, what is still uncertain |
+I wanted to create something that allows players to spend less time repeating old progression and more time enjoying the cars, garages and content that make TDU2 special.
 
-Command-line check without opening a window: `py Rynzlers_Garage_and_Casino_Editor.py --check "<path to a COPY of DATA>"`
+The editor is not intended to replace the game or automatically complete an entire career. It provides selected tools for players who want more control over their existing save.
+
+⸻
+
+FEATURES
+
+Garage Editor
+
+* Browse owned vehicles organised by house, island and garage slot.
+* View vehicle names, archetype IDs, mileage and upgrade information.
+* Change a vehicle in an existing garage slot using a recognised vehicle archetype ID.
+* Apply Stage 4 upgrades (4/4/4) to an individual vehicle.
+* Apply Stage 4 upgrades to every vehicle in a selected garage.
+* Apply Stage 4 upgrades to all owned vehicles.
+* Remove upgrades from an individual vehicle.
+* Edit individual vehicle mileage/odometer readings.
+
+Casino & Player Editor
+
+* Set Global Casino Level to 5 to unlock access to the VIP Terrace.
+* Edit player money.
+* Edit Casino chips.
+* Edit Casino coupons.
+* Apply the available Casino cosmetics preset.
+* Apply the available reward-car flags preset (advanced/riskier option).
+
+Casino VIP clarification: The Global Level 5 option unlocks VIP Terrace access and the associated VIP progression. It does not directly place the Spyker C8 Aileron Spyder in your garage.
+
+Save Protection & Verification
+
+* Automatic verified backup before writing changes.
+* Save-data validation before changes are committed.
+* Re-read and verification of the saved file.
+* Automatic rollback if a write or verification fails.
+* Restore an earlier backup from within the application.
+* Save changes to a separate file instead of overwriting the original.
+* Verify an existing save file from the application.
+
+Optional Casino DLC / TDU Life Repair
+
+An additional targeted repair option is included for a specific save-data issue involving Driver.MustClearOnlineDatas.
+
+The repair checks for the exact value it is designed to address (4), creates a backup, changes that value to 0 and verifies the result.
+
+This option helped address missing Casino access / Casino DLC / TDU Life problems in the author’s testing, but it is not a universal fix and should only be used when the relevant issue is present.
+
+⸻
+
+VEHICLE DATABASES & MOD SUPPORT
+
+The editor includes an extensive vehicle database containing 424 entries, along with house information and vehicle class data.
+
+It also includes a reference list of the author’s 206 owned vehicles, which can be opened from the application’s More menu.
+
+A note about unofficial patches and mods
+
+TDU2 has a wide range of unofficial patches, additional vehicles and modifications, including content from the Unbounded Mod.
+
+Not every vehicle from every external modification is currently identified or mapped. Some vehicle names, archetype IDs, house assignments and class information may therefore be missing or displayed as unrecognised.
+
+The current class database confirms classes for 100 of the author’s 206 owned vehicles. The remaining vehicles have deliberately been left without a class where reliable information was not available, rather than assigning potentially incorrect information.
+
+The vehicle and house databases can be updated separately without changing the main application, allowing further improvements to be made as additional information becomes available.
+
+The editor works with existing garage entries; it cannot create additional garage slots or generate vehicles that are not already represented in the save.
+
+⸻
+
+COMMUNITY CONTRIBUTIONS – HELP MAKE THIS BETTER!
+
+This is a free community project, and I’d genuinely love to see other TDU2 players get involved in improving it.
+
+In particular, I’m looking for help identifying additional vehicles from the Unbounded Mod and other unofficial modifications.
+
+There are currently vehicles whose inbound vehicle IDs, names and other information I haven’t been able to identify reliably.
+
+If you have experience with Unbounded Mod, understand vehicle archetype IDs, or have access to information that could help expand the database, your contribution would be hugely appreciated.
+
+Some of the things I’d particularly welcome help with:
+
+* Identifying unknown inbound vehicle IDs.
+* Adding Unbounded Mod vehicles to the vehicle database.
+* Confirming vehicle names against their correct IDs.
+* Identifying missing or incorrect house assignments.
+* Confirming vehicle classes where reliable information is available.
+* Reporting bugs, errors or unexpected behaviour.
+* Suggesting improvements or helping develop additional features.
+
+If you discover an unknown vehicle ID, please include the vehicle name, its inbound vehicle ID, the mod or game version you’re using and, ideally, a screenshot or other evidence.
+
+Bug reports are equally welcome. If something doesn’t work as expected, please let me know. Screenshots, error messages and steps to reproduce the problem will make it much easier to investigate and fix.
+
+You don’t need to be a programmer to contribute. Even helping identify a handful of missing vehicles could make a real difference.
+
+The aim is to build a more complete and reliable vehicle database together, and make the editor as useful as possible for the TDU2 community.
+
+You can submit discoveries, bug reports and suggestions through the GitHub Issues section of this project.
+
+Thank you to anyone willing to help!
+
+⸻
+
+SAVE GAME SAFETY
+
+Protecting existing save data has been an important part of this project.
+
+The editor is designed to change only the selected values and preserve unrelated save data wherever possible. Its save process validates the data, creates a verified backup, writes the updated file and then checks the result.
+
+The application also provides a restore option and the ability to save changes as a new file.
+
+The development build was tested against copies of the author’s save, with comparisons against the original editor and checks to confirm that unrelated data remained unchanged.
+
+No save editor can guarantee compatibility with every modified save, unofficial patch or future game update. Always make your own backup of your complete TDU2 profile before editing. 
+
+⸻
+
+DOWNLOAD & INSTALLATION
+
+The editor is completely free to download and use.
+
+It is supplied as a ZIP containing the application and its supporting databases.
+
+You will need:
+
+* Windows.
+* Python 3.8 or newer, with Tkinter included (the standard option in the official Python installer).
+
+No additional Python packages are required.
+
+Extract the complete ZIP, keep all the files together and launch the application using the included .bat file.
+
+A first-time installation and usage guide is provided alongside the download.
+
+⸻
+
+A FINAL NOTE
+
+This project has taken many hours of work, testing and refinement, and I’m genuinely pleased to be able to share it with the TDU2 community.
+
+It is still an evolving project. Vehicle databases and class information can be improved as more information becomes available, particularly for cars introduced through unofficial patches and external modifications.
+
+I’m particularly keen to expand support for Unbounded Mod vehicles and welcome anyone who can help identify missing inbound vehicle IDs or improve the existing database.
+
+Whether you’re returning to Ibiza and Hawaii, organising your garage, revisiting Casino content or simply making a few adjustments to your existing save, I hope this tool makes your time in TDU2 a little more enjoyable.
+
+Free to use. Made for the community. Improved by the community.
+
+Enjoy!
+
+— Rynzler
