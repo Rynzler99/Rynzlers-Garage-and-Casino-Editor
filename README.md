@@ -8,7 +8,19 @@ Whether you’re returning to TDU2 for another playthrough, managing a large col
 
 It has been developed with TDU2 and Project Paradise 2 players in mind, with a focus on useful features, straightforward operation and protecting your existing progress.
 
-⸻
+## Screenshots
+
+### Screenshot 1
+![Editor Screenshot 1](IMG_9814.png)
+
+### Screenshot 2
+![Editor Screenshot 2](IMG_9815.png)
+
+### Screenshot 3
+![Editor Screenshot 3](IMG_9816.png)
+
+### Screenshot 4
+![Editor Screenshot 4](IMG_9817.png)⸻
 
 FREE DOWNLOAD — NO SUBSCRIPTION OR PAYMENT REQUIRED
 
