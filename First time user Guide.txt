@@ -1,0 +1,194 @@
+First time users instructions 
+
+
+Rynzler’s Garage & Casino Editor
+First-Time User Guide
+Welcome! This guide explains how to install, open and safely use Rynzler’s Garage & Casino Editor for Test Drive Unlimited 2.
+You don’t need any programming knowledge to use the editor. Just follow the steps below.
+ 
+⸻
+ 
+1. What do I need?
+The editor requires:
+	•	A Windows PC.
+	•	Test Drive Unlimited 2 and its existing save file.
+	•	Python 3.8 or newer, including Tkinter.
+Python is free and can be downloaded from:
+https://www.python.org/downloads/
+During installation, make sure Add python.exe to PATH is ticked. The Tcl/Tk option should also remain enabled (it is normally selected by default).
+You do not need to install any additional Python packages.
+ 
+⸻
+ 
+2. Download and extract the editor
+	1.	Download Rynzlers_Garage_and_Casino_Editor_FINAL.zip.
+	2.	Find the downloaded ZIP file.
+	3.	Right-click it and select Extract All.
+	4.	Choose a convenient location, such as your Desktop or Documents folder.
+	5.	Open the extracted Rynzlers_Garage_and_Casino_Editor folder.
+Important: Keep all the files together inside this folder. Do not move the Python application away from its supporting databases.
+The folder contains:
+File	Purpose
+Rynzlers_Garage_and_Casino_Editor.py	Main application
+tdu2_tool.py	Save-data processing engine
+cars_database.json	Vehicle names and archetype IDs
+houses_database.json	House information
+vehicle_classes.json	Vehicle class badges
+garage_list.csv	Reference list of the author’s garage
+.bat launcher	Starts the editor
+README.md	Project information
+DEVELOPMENT_REPORT.md	Development and testing information
+You normally only need to use the launcher. You do not need to open or edit the JSON files.
+ 
+⸻
+ 
+3. Make a backup of your save
+Before using any save editor, make a backup of your original TDU2 profile.
+	1.	Close Test Drive Unlimited 2 completely.
+	2.	Open your Documents folder.
+	3.	Find the Test Drive Unlimited 2 folder.
+	4.	Open savegame.
+	5.	Find your profile folder.
+	6.	Copy your entire profile folder somewhere safe.
+Your save file is normally located here:
+Documents\Test Drive Unlimited 2\savegame\[YourProfile]\PLAYERSAVE\DATA
+The file you need to open in the editor is called DATA.
+Your actual location may differ depending on your installation and profile.
+Do not skip the backup. The editor creates its own automatic backups when saving, but keeping an untouched copy of your complete profile is still recommended.
+ 
+⸻
+ 
+4. Launch the application
+	1.	Open the extracted editor folder.
+	2.	Double-click Launch_Rynzlers_Garage_and_Casino_Editor.bat.
+	3.	Allow a few moments for the application to start.
+	4.	Once the welcome screen appears, select Open save.
+	5.	Navigate to your TDU2 profile’s PLAYERSAVE folder.
+	6.	Select the DATA file.
+The editor will load and verify your save.
+Once loaded, you should see your profile information, owned vehicle count and garage information.
+If the application reports that Python or Tkinter is missing, check your Python installation before trying again.
+ 
+⸻
+ 
+5. Using the Garage Editor
+Select Garage Editor from the navigation.
+Your owned vehicles are organised by house, island and garage slot.
+Selecting a vehicle allows you to view its available information, including:
+	•	Vehicle name.
+	•	Archetype ID.
+	•	Mileage / odometer.
+	•	Available upgrade information.
+	•	Vehicle class badge, where a confirmed class is available.
+Changing vehicle upgrades
+You can apply upgrades in three ways:
+	•	Stage 4 – this vehicle: Applies Stage 4 upgrades to the selected vehicle.
+	•	Stage 4 – every vehicle in this garage: Applies Stage 4 to all vehicles in the selected garage.
+	•	Stage 4 – all owned vehicles: Applies Stage 4 to all owned vehicles.
+Stage 4 means 4/4/4 across acceleration, top speed and braking.
+You can also remove upgrades from an individual vehicle.
+Be careful when selecting the whole-garage or all-owned options, as these can affect a large number of vehicles.
+Changing vehicle mileage
+Select the vehicle and use the mileage/odometer editing option to enter the desired reading.
+Changing a vehicle in a garage slot
+The editor allows you to change the vehicle associated with an existing garage slot using a recognised vehicle archetype ID.
+This is not a vehicle-spawning tool. It cannot create additional garage slots or generate vehicles from nothing.
+ 
+⸻
+ 
+6. Using the Casino & Player Editor
+Select Casino & Player Editor.
+Available options include:
+	•	Player money.
+	•	Casino chips.
+	•	Casino coupons.
+	•	Casino VIP unlock.
+	•	Casino cosmetics preset.
+	•	Reward-car flags preset.
+Casino VIP
+The VIP option sets your Global Casino Level to 5, granting access to the VIP Terrace and associated VIP progression.
+It does not directly place the Spyker C8 Aileron Spyder in your garage.
+Advanced Casino options
+The Casino cosmetics and reward-car flags options are additional presets.
+The reward-car flags option is explicitly marked as the riskier option. It changes reward-related save flags but does not add vehicles to your garage.
+Only use advanced options if you understand what they are intended to change.
+ 
+⸻
+ 
+7. Optional Casino DLC / TDU Life Repair
+The editor includes an optional repair for a specific save-data issue involving:
+Driver.MustClearOnlineDatas
+The repair only becomes available when the value is exactly 4.
+If offered, the editor:
+	1.	Creates a backup.
+	2.	Changes the value from 4 to 0.
+	3.	Verifies the saved result.
+This was useful for a particular issue encountered during development, involving missing Casino access, Casino DLC or TDU Life.
+However, it is not a universal fix for every Casino or DLC problem. If the value is already 0, there is nothing for this repair to change.
+Do not use it simply because you are experiencing an unrelated game issue.
+ 
+⸻
+ 
+8. Saving your changes
+Once you have made your edits, select Save changes.
+The editor will:
+	1.	Validate the edited save data.
+	2.	Create a verified backup next to your original save file.
+	3.	Write the updated save.
+	4.	Read the file back and verify the result.
+	5.	Attempt to roll back automatically if something goes wrong.
+You can also use the More menu to:
+	•	Save as new file: Creates a separate edited save without overwriting your current one.
+	•	Verify save file: Checks the save currently on disk.
+	•	Restore a backup: Restores an earlier backup.
+	•	Open garage_list.csv: Opens the author’s vehicle reference list.
+When restoring a backup, the current save is kept as a separate DATA.before-restore-... file.
+I recommend using Save as new file if you want to experiment without immediately replacing your existing save.
+ 
+⸻
+ 
+9. Return to the game
+Once you have saved your changes:
+	1.	Close the editor.
+	2.	Make sure the save operation completed successfully.
+	3.	Start Test Drive Unlimited 2.
+	4.	Load your profile.
+	5.	Check the changes you made in-game.
+Always keep the game closed while editing or saving your profile.
+ 
+⸻
+ 
+10. Known limitations
+A few things are worth understanding before using the editor.
+Vehicle recognition
+The supplied vehicle database contains 424 entries, but TDU2 has many unofficial patches, additional vehicles and modifications.
+Not every vehicle from every external mod or the Unbounded Mod is currently recognised. Some vehicles may appear with an unrecognised ID or incomplete information.
+Vehicle classes
+Class badges are only displayed where a reliable class mapping is available. The current database has confirmed classes for 100 of the author’s 206 owned vehicles. Other vehicles may have no class badge.
+This does not mean those vehicles are broken or unusable.
+House assignments
+Four vehicles in the author’s reference data still have uncertain house assignments. These are displayed as unrecognised rather than being assigned to a house without reliable evidence.
+Garage editing
+The editor changes existing garage entries. It cannot create new garage slots, add cars from nothing or guarantee compatibility with every external modification.
+Game compatibility
+The editor has been developed for TDU2 save data, including the author’s Project Paradise 2 setup. Modified saves can differ, so compatibility with every possible combination of patches and mods cannot be guaranteed.
+ 
+⸻
+ 
+11. Need help?
+If you experience a problem:
+	•	Make sure the game is closed before editing.
+	•	Check that you extracted the entire ZIP.
+	•	Make sure the supporting files are still together.
+	•	Check that Python 3.8+ and Tkinter are installed.
+	•	Keep a copy of the original save.
+	•	Take a screenshot of any error message.
+When asking for help, explain what you were doing when the problem occurred and include the exact error message if possible.
+ 
+⸻
+ 
+Final reminder
+Always keep your own backup of your complete TDU2 profile.
+The editor includes automatic backup and verification features, but careful save management is still the best way to protect your progress.
+Enjoy your time back in Ibiza and Hawaii!
+Rynzler’s Garage & Casino Editor — made for the TDU2 community.

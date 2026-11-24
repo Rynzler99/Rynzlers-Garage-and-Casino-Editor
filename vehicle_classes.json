@@ -1,0 +1,708 @@
+{
+ "_note": "Class badges transcribed by eye from Rynzler's TDU2 screenshots. by_archetype_id entries were matched by garage slot position against the real save (see README). Unverified beyond that. v1.2: further by_name entries added from the supplied historical TDU2 class list (matched to cars_database.json names); existing entries were not changed. Where the historical list and an in-game screenshot disagree the in-game screenshot is kept.",
+ "by_name": {
+  "ferrari f12berlinetta": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Ferrari F12berlinetta"
+  },
+  "peugeot 905 evo 1c": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Peugeot 905 Evo 1C"
+  },
+  "nissan r390 gt1 race car": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Nissan R390 GT1 Race Car"
+  },
+  "audi r15 tdi race car color edition": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Audi R15 TDI Race Car Color Edition"
+  },
+  "volkswagen w12 syncro": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Volkswagen W12 Syncro"
+  },
+  "citroen gt by citroen concept": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Citroën GT by Citroën Concept"
+  },
+  "nissan gt-r": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Nissan GT-R"
+  },
+  "audi r8 coupe 5.2 fsi quattro": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Audi R8 Coupé 5.2 FSI Quattro"
+  },
+  "audi r8 spyder 5.2 fsi quattro": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Audi R8 Spyder 5.2 FSI Quattro"
+  },
+  "spyker c12 zagato": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Spyker C12 Zagato"
+  },
+  "lexus lfa nurburgring package": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Lexus LFA Nürburgring Package"
+  },
+  "mazda furai": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Mazda Furai"
+  },
+  "ferrari 612 sessanta": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Ferrari 612 Sessanta"
+  },
+  "ferrari california": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Ferrari California"
+  },
+  "ferrari 612 scaglietti": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Ferrari 612 Scaglietti"
+  },
+  "alfa romeo 8c spider": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Alfa Romeo 8C Spider"
+  },
+  "alfa romeo 8c competizione": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Alfa Romeo 8C Competizione"
+  },
+  "spyker c8 aileron": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Spyker C8 Aileron"
+  },
+  "spyker c8 laviolette lm85": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Spyker C8 Laviolette LM85"
+  },
+  "audi r8 coupe 4.2 fsi r tronic": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Audi R8 Coupé 4.2 FSI R Tronic"
+  },
+  "lotus 2-eleven club exclusive": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Lotus 2-Eleven Club Exclusive"
+  },
+  "audi rs6 avant": {
+   "class": "A",
+   "rank": 4,
+   "shown_as": "Audi RS6 Avant"
+  },
+  "nissan 370z nismo": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Nissan 370Z Nismo"
+  },
+  "nissan skyline r34 gt-r m-spec nur": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Nissan Skyline R34 GT-R M-Spec Nür"
+  },
+  "seat leon supercopa": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "SEAT Leon Supercopa"
+  },
+  "audi rs5 coupe": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Audi RS5 Coupé"
+  },
+  "audi tt rs roadster": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Audi TT RS Roadster"
+  },
+  "lotus evora": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Lotus Evora"
+  },
+  "nissan 370z optional parts": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Nissan 370Z Optional Parts"
+  },
+  "nissan 370z": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Nissan 370Z"
+  },
+  "renault clio rs v6": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Renault Clio RS V6"
+  },
+  "volvo s60r": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Volvo S60R"
+  },
+  "audi tts coupe": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Audi TTS Coupé"
+  },
+  "alfa romeo brera italia independent": {
+   "class": "A",
+   "rank": 7,
+   "shown_as": "Alfa Romeo Brera Italia Independent"
+  },
+  "alfa romeo mito quadrifoglio verde": {
+   "class": "A",
+   "rank": 7,
+   "shown_as": "Alfa Romeo MiTo Quadrifoglio Verde"
+  },
+  "audi quattro sport s1 group b": {
+   "class": "B",
+   "rank": 1,
+   "shown_as": "Audi Quattro Sport S1 Group B"
+  },
+  "buggy v8": {
+   "class": "B",
+   "rank": 2,
+   "shown_as": "Buggy V8"
+  },
+  "audi q7 v12 tdi quattro - tdu2 inuit edition": {
+   "class": "B",
+   "rank": 3,
+   "shown_as": "Audi Q7 V12 TDI quattro - TDU2 Inuit Edition"
+  },
+  "audi q7 v12 \"chris\"": {
+   "class": "B",
+   "rank": 3,
+   "shown_as": "Audi Q7 V12 \"Chris\""
+  },
+  "audi q7 v12 tdi quattro": {
+   "class": "B",
+   "rank": 3,
+   "shown_as": "Audi Q7 V12 TDI quattro"
+  },
+  "spyker d8 peking-to-paris": {
+   "class": "B",
+   "rank": 3,
+   "shown_as": "Spyker D8 Peking-to-Paris"
+  },
+  "spyker d12 peking-to-paris": {
+   "class": "B",
+   "rank": 3,
+   "shown_as": "Spyker D12 Peking-to-Paris"
+  },
+  "mercedes-benz ml 63 amg": {
+   "class": "B",
+   "rank": 3,
+   "shown_as": "Mercedes-Benz ML 63 AMG"
+  },
+  "jeep grand cherokee srt8": {
+   "class": "B",
+   "rank": 3,
+   "shown_as": "Jeep Grand Cherokee SRT8"
+  },
+  "land rover range rover sport hse": {
+   "class": "B",
+   "rank": 4,
+   "shown_as": "Land Rover Range Rover Sport HSE"
+  },
+  "hummer h3": {
+   "class": "B",
+   "rank": 4,
+   "shown_as": "HUMMER H3"
+  },
+  "volkswagen touareg v10 tdi \"ryan\"": {
+   "class": "B",
+   "rank": 4,
+   "shown_as": "Volkswagen Touareg V10 TDI \"Ryan\""
+  },
+  "volkswagen touareg v10 tdi": {
+   "class": "B",
+   "rank": 4,
+   "shown_as": "Volkswagen Touareg V10 TDI"
+  },
+  "ferrari f40": {
+   "class": "C",
+   "rank": 1,
+   "shown_as": "Ferrari F40"
+  },
+  "lotus elise gt1": {
+   "class": "C",
+   "rank": 1,
+   "shown_as": "Lotus Elise GT1"
+  },
+  "ferrari 250 gto": {
+   "class": "C",
+   "rank": 2,
+   "shown_as": "Ferrari 250 GTO"
+  },
+  "lancia stratos groupe 4": {
+   "class": "C",
+   "rank": 2,
+   "shown_as": "Lancia Stratos Groupe 4"
+  },
+  "ferrari 308 gts quattrovalvole": {
+   "class": "C",
+   "rank": 3,
+   "shown_as": "Ferrari 308 GTS Quattrovalvole"
+  },
+  "lancia delta integrale evoluzione": {
+   "class": "C",
+   "rank": 3,
+   "shown_as": "Lancia Delta integrale evoluzione"
+  },
+  "ferrari dino 246 gts": {
+   "class": "C",
+   "rank": 4,
+   "shown_as": "Ferrari Dino 246 GTS"
+  },
+  "lotus esprit s3": {
+   "class": "C",
+   "rank": 4,
+   "shown_as": "Lotus Esprit S3"
+  },
+  "pagani zonda cinque": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Pagani Zonda Cinque"
+  },
+  "pagani zonda f": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Pagani Zonda F"
+  },
+  "pagani zonda roadster f": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Pagani Zonda Roadster F"
+  },
+  "koenigsegg ccxr edition": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Koenigsegg CCXR Edition"
+  },
+  "bugatti veyron 16.4": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Bugatti Veyron 16.4"
+  },
+  "bugatti veyron 16.4 grand sport": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Bugatti Veyron 16.4 Grand Sport"
+  },
+  "ruf rt 12": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "RUF Rt 12"
+  },
+  "ferrari 599 gto": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Ferrari 599 GTO"
+  },
+  "ferrari enzo": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Ferrari Enzo"
+  },
+  "aston martin one-77": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Aston Martin One-77"
+  },
+  "ariel atom 300 supercharged": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Ariel Atom 300 Supercharged"
+  },
+  "ascari a10": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Ascari A10"
+  },
+  "mclaren mp4-12c": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "McLaren MP4-12C"
+  },
+  "mercedes-benz slr mclaren stirling moss": {
+   "class": "A",
+   "rank": 1,
+   "shown_as": "Mercedes-Benz SLR McLaren Stirling Moss"
+  },
+  "pagani zonda c12s 7.3 roadster": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Pagani Zonda C12S 7.3 Roadster"
+  },
+  "ruf rgt": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "RUF RGT"
+  },
+  "ruf rturbo": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "RUF Rturbo"
+  },
+  "ferrari 430 scuderia spider 16m": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Ferrari 430 Scuderia Spider 16M"
+  },
+  "ferrari 430 scuderia": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Ferrari 430 Scuderia"
+  },
+  "ferrari 599 gtb fiorano": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Ferrari 599 GTB Fiorano"
+  },
+  "dodge viper srt10": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Dodge Viper SRT10"
+  },
+  "ford gt": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Ford GT"
+  },
+  "aston martin v12 vantage": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Aston Martin V12 Vantage"
+  },
+  "ginetta f400": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Ginetta F400"
+  },
+  "tvr sagaris": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "TVR Sagaris"
+  },
+  "ascari kz1 r limited edition": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Ascari KZ1 R Limited Edition"
+  },
+  "mercedes-benz sls amg": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Mercedes-Benz SLS AMG"
+  },
+  "mercedes-benz slr mclaren roadster 722s": {
+   "class": "A",
+   "rank": 2,
+   "shown_as": "Mercedes-Benz SLR McLaren Roadster 722s"
+  },
+  "ruf rk spyder": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "RUF RK Spyder"
+  },
+  "aston martin dbs coupe": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Aston Martin DBS Coupe"
+  },
+  "caterham 7 csr 260": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Caterham 7 CSR 260"
+  },
+  "mercedes-benz clk 63 amg black series": {
+   "class": "A",
+   "rank": 3,
+   "shown_as": "Mercedes-Benz CLK 63 AMG Black Series"
+  },
+  "chevrolet camaro 2ss": {
+   "class": "A",
+   "rank": 4,
+   "shown_as": "Chevrolet Camaro 2SS"
+  },
+  "jaguar xkr": {
+   "class": "A",
+   "rank": 4,
+   "shown_as": "Jaguar XKR"
+  },
+  "aston martin v8 vantage": {
+   "class": "A",
+   "rank": 4,
+   "shown_as": "Aston Martin V8 Vantage"
+  },
+  "aston martin db9 coupe": {
+   "class": "A",
+   "rank": 4,
+   "shown_as": "Aston Martin DB9 Coupe"
+  },
+  "aston martin db9 volante": {
+   "class": "A",
+   "rank": 4,
+   "shown_as": "Aston Martin DB9 Volante"
+  },
+  "audi s5 coupe": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Audi S5 Coupé"
+  },
+  "dodge charger srt8": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Dodge Charger SRT8"
+  },
+  "ford mustang gt": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Ford Mustang GT"
+  },
+  "mercedes-benz slk 55 amg": {
+   "class": "A",
+   "rank": 5,
+   "shown_as": "Mercedes-Benz SLK 55 AMG"
+  },
+  "audi s3": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Audi S3"
+  },
+  "subaru impreza wrx sti": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Subaru Impreza WRX STI"
+  },
+  "chevrolet camaro 1lt": {
+   "class": "A",
+   "rank": 6,
+   "shown_as": "Chevrolet Camaro 1LT"
+  },
+  "volkswagen golf vi gti": {
+   "class": "A",
+   "rank": 7,
+   "shown_as": "Volkswagen Golf VI GTI"
+  },
+  "jaguar e-type coupe": {
+   "class": "C",
+   "rank": 3,
+   "shown_as": "Jaguar E-Type Coupe"
+  },
+  "mercedes-benz 300 sl gullwing": {
+   "class": "C",
+   "rank": 3,
+   "shown_as": "Mercedes-Benz 300 SL Gullwing"
+  },
+  "chevrolet corvette c1": {
+   "class": "C",
+   "rank": 3,
+   "shown_as": "Chevrolet Corvette C1"
+  },
+  "ford mustang fastback 302cid": {
+   "class": "C",
+   "rank": 4,
+   "shown_as": "Ford Mustang Fastback 302cid"
+  }
+ },
+ "by_archetype_id": {
+  "230": {
+   "class": "A",
+   "rank": 1
+  },
+  "663": {
+   "class": "A",
+   "rank": 3
+  },
+  "387": {
+   "class": "A",
+   "rank": 3
+  },
+  "1027": {
+   "class": "A",
+   "rank": 3
+  },
+  "1022": {
+   "class": "C",
+   "rank": 1
+  },
+  "1019": {
+   "class": "C",
+   "rank": 2
+  },
+  "326": {
+   "class": "C",
+   "rank": 4
+  },
+  "298": {
+   "class": "C",
+   "rank": 3
+  },
+  "375": {
+   "class": "B",
+   "rank": 3
+  },
+  "324": {
+   "class": "B",
+   "rank": 3
+  },
+  "376": {
+   "class": "B",
+   "rank": 4
+  },
+  "311": {
+   "class": "B",
+   "rank": 4
+  },
+  "602": {
+   "class": "B",
+   "rank": 4
+  },
+  "323": {
+   "class": "B",
+   "rank": 4
+  },
+  "7053": {
+   "class": "A",
+   "rank": 1
+  },
+  "442": {
+   "class": "A",
+   "rank": 2
+  },
+  "432": {
+   "class": "A",
+   "rank": 2
+  },
+  "343": {
+   "class": "A",
+   "rank": 3
+  },
+  "393": {
+   "class": "A",
+   "rank": 4
+  },
+  "660": {
+   "class": "A",
+   "rank": 5
+  },
+  "379": {
+   "class": "A",
+   "rank": 5
+  },
+  "322": {
+   "class": "A",
+   "rank": 6
+  },
+  "8184": {
+   "class": "A",
+   "rank": 1
+  },
+  "403": {
+   "class": "A",
+   "rank": 2
+  },
+  "1039": {
+   "class": "A",
+   "rank": 5
+  },
+  "359": {
+   "class": "A",
+   "rank": 5
+  },
+  "658": {
+   "class": "A",
+   "rank": 6
+  },
+  "404": {
+   "class": "A",
+   "rank": 6
+  },
+  "7029": {
+   "class": "B",
+   "rank": 1
+  },
+  "314": {
+   "class": "B",
+   "rank": 2
+  },
+  "657": {
+   "class": "B",
+   "rank": 3
+  },
+  "604": {
+   "class": "B",
+   "rank": 3
+  },
+  "348": {
+   "class": "B",
+   "rank": 3
+  },
+  "8116": {
+   "class": "A",
+   "rank": 1
+  },
+  "8107": {
+   "class": "A",
+   "rank": 2
+  },
+  "8233": {
+   "class": "A",
+   "rank": 2
+  },
+  "8102": {
+   "class": "A",
+   "rank": 5
+  },
+  "7931": {
+   "class": "A",
+   "rank": 6
+  },
+  "7853": {
+   "class": "A",
+   "rank": 6
+  },
+  "361": {
+   "class": "A",
+   "rank": 2
+  },
+  "429": {
+   "class": "A",
+   "rank": 3
+  },
+  "7839": {
+   "class": "A",
+   "rank": 3
+  },
+  "351": {
+   "class": "B",
+   "rank": 3
+  },
+  "355": {
+   "class": "C",
+   "rank": 3
+  }
+ }
+}

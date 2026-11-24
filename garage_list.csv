@@ -1,0 +1,207 @@
+﻿House number in game (n/61),House,Position in house,Slot,Car,Car ID,Instance ID,Upgrades A/T/B,Odometer km
+1,(two houses look identical - see notes),1,212,Lexus LFA Nürburgring Package (unsure),7028,219,4/4/4,7.8
+1,(two houses look identical - see notes),2,213,Lexus LFA (unsure),7836,218,4/4/4,0.0
+2,Black Point House,1,84,Chevrolet Corvette C6 ZR1,269,45,4/4/4,0.0
+2,Black Point House,2,85,Chevrolet Camaro ZL1,362,123,4/4/4,10.4
+2,Black Point House,3,86,Chevrolet Camaro 2SS,405,43,4/4/4,0.0
+2,Black Point House,5,88,Chevrolet Camaro 1LT,378,44,4/4/4,0.0
+2,Black Point House,6,89,"Chevrolet Corvette C3 Stingray ""Sid Burn""",8178,213,4/4/4,0.0
+2,Black Point House,7,90,Chevrolet Corvette C1,242,112,4/4/4,0.5
+2,Black Point House,8,91,Chevrolet Camaro RS/SS 396cid,218,114,4/4/4,0.0
+3,Lokoea Village,1,92,Nissan R390 GT1 Race Car,8184,184,4/4/4,1.5
+3,Lokoea Village,2,93,Nissan GT-R,403,100,4/4/4,34.4
+3,Lokoea Village,3,94,Nissan 370Z Nismo,1039,98,4/4/4,107.5
+3,Lokoea Village,4,95,Nissan Skyline R34 GT-R M-Spec Nür,359,101,4/4/4,41.4
+3,Lokoea Village,5,96,Nissan 370Z Optional Parts,658,96,4/4/4,0.0
+3,Lokoea Village,6,97,Nissan 370Z,404,95,4/4/4,121.4
+4,Kaakahi Spring,1,138,"Wiesmann Roadster MF3 ""Solar Crown""",607,135,4/4/4,51.8
+4,Kaakahi Spring,2,139,Wiesmann Roadster MF3 Club Exclusive,280,173,4/4/4,0.1
+5,Coconut Beach House,1,214,Lotus 2-Eleven Club Exclusive,400,172,4/4/4,3.7
+5,Coconut Beach House,2,215,Lotus Evora,402,69,4/4/4,0.1
+5,Coconut Beach House,3,216,Subaru Impreza WRX STI,332,97,4/4/4,0.2
+5,Coconut Beach House,4,217,Dodge Ram SRT10,312,54,4/4/4,0.1
+5,Coconut Beach House,5,218,Lancia Delta HF Integrale Evoluzione II,355,1,4/4/4,145.1
+5,Coconut Beach House,6,219,Lotus Esprit S3,380,48,4/4/4,11.8
+6,Loophole Haven of Peace,1,220,Bugatti Veyron Super Sport,661,122,4/4/4,240.2
+6,Loophole Haven of Peace,2,221,Bugatti Veyron 16.4 Grand Sport Sang Bleu,650,119,4/4/4,0.0
+6,Loophole Haven of Peace,3,222,Bugatti Veyron Centenaire,651,120,4/4/4,0.1
+6,Loophole Haven of Peace,4,223,Bugatti Veyron 16.4 Grand Sport,370,118,4/4/4,0.0
+6,Loophole Haven of Peace,5,224,Bugatti Veyron 16.4,353,117,4/4/4,0.0
+6,Loophole Haven of Peace,6,225,Bugatti Chiron Vision Gran Turismo,7059,217,4/4/4,26.0
+7,(two houses look identical - see notes),1,130,Bugatti Divo (unsure),7019,181,4/4/4,1.0
+7,(two houses look identical - see notes),2,131,Bugatti EB110SS (unsure),7018,227,4/4/4,2.5
+10,Honouliali Village,1,152,Ariel Atom 300 Supercharged,345,89,4/4/4,78.9
+10,Honouliali Village,2,153,Ariel Atom 500 V8,424,178,4/4/4,4.6
+10,Honouliali Village,3,154,Caterham Superlight R500,71,70,4/4/4,0.0
+10,Honouliali Village,4,155,Caterham 7 CSR 260,420,71,4/4/4,0.0
+11,Ko Olina Paradise,1,272,Aston Martin One-77,431,28,4/4/4,13.4
+11,Ko Olina Paradise,2,273,Aston Martin Vulcan,7148,222,4/4/4,0.0
+11,Ko Olina Paradise,3,274,Aston Martin V12 Vantage,390,26,4/4/4,0.0
+11,Ko Olina Paradise,5,276,Aston Martin DBS Coupe,386,24,4/4/4,0.0
+11,Ko Olina Paradise,6,277,Aston Martin V8 Vantage,112,23,4/4/4,0.0
+11,Ko Olina Paradise,7,278,Aston Martin DB9 Coupe,395,22,4/4/4,7.3
+11,Ko Olina Paradise,8,279,Aston Martin DB9 Volante,110,21,4/4/4,0.0
+12,Hoomaluhia Paradise,1,114,TVR Cerbera Speed 12,208,90,4/4/4,30.6
+12,Hoomaluhia Paradise,2,115,TVR Sagaris,207,88,4/4/4,0.0
+12,Hoomaluhia Paradise,3,116,Ginetta F400,384,107,4/4/4,0.0
+12,Hoomaluhia Paradise,4,117,Maserati MC12,7136,250,2/2/0,0.0
+13,Sandy Beach Dream,1,98,Pagani Zonda R,7101,193,4/4/4,0.5
+13,Sandy Beach Dream,2,99,Pagani Zonda Cinque,413,106,4/4/4,113.6
+13,Sandy Beach Dream,3,100,Pagani Zonda Tricolore,654,102,4/4/4,0.0
+13,Sandy Beach Dream,4,101,Pagani Zonda Roadster F,414,105,4/4/4,0.0
+13,Sandy Beach Dream,5,102,Pagani Zonda C12S 7.3 Roadster,115,103,4/4/4,31.4
+13,Sandy Beach Dream,6,103,Pagani Zonda F,368,104,4/4/4,0.0
+14,Keolo Hills,1,110,Nissan Skyline R34 GT-R NFS Underground Edition,7178,214,4/4/4,0.1
+14,Keolo Hills,2,111,Nissan GT-R SP Engineering,7000,215,4/4/4,0.1
+14,Keolo Hills,3,112,Mine's BNR34 Skyline GT-R N1,7976,211,4/4/4,0.1
+14,Keolo Hills,4,113,Nissan GT-R Neon Edition,7161,212,4/4/4,0.1
+16,Wahiawa Abode,1,126,Ascari A10,385,110,4/4/4,91.4
+16,Wahiawa Abode,2,127,Ascari KZ1 R Limited Edition,427,108,4/4/4,0.0
+18,Makapu'u Meditation,1,104,McLaren F1 LM,7169,246,4/4/4,0.3
+18,Makapu'u Meditation,2,105,McLaren F1 GT,7175,182,4/4/4,3.1
+18,Makapu'u Meditation,3,106,McLaren MP4-12C,430,109,4/4/4,0.1
+18,Makapu'u Meditation,4,107,W Motors Lykan Hypersport,7840,183,4/4/4,1.9
+18,Makapu'u Meditation,5,108,Noble M600,7017,210,4/4/4,4.6
+18,Makapu'u Meditation,6,109,Mazda Furai,8040,180,4/4/4,1.8
+20,Kahuku Point Paradise,1,264,Ford GT90 Concept,7906,205,4/4/4,0.1
+20,Kahuku Point Paradise,2,265,Ford GT,117,39,4/4/4,0.0
+20,Kahuku Point Paradise,3,266,Ford Shelby GR-1 Concept,7168,188,4/4/4,0.1
+20,Kahuku Point Paradise,4,267,Ford Shelby Cobra Concept,8045,187,4/4/4,0.1
+20,Kahuku Point Paradise,5,268,Ford Mustang Shelby GT500,662,40,4/4/4,0.0
+20,Kahuku Point Paradise,6,269,Ford Mustang GT,443,42,4/4/4,0.0
+20,Kahuku Point Paradise,7,270,Ford Mustang V6 Premium,382,51,4/4/4,4.2
+20,Kahuku Point Paradise,8,271,Ford RS200 Evolution Group B,7999,200,4/4/4,1.2
+21,Turtle Refuge,1,156,Shelby GT-500KR,221,113,4/4/4,19.1
+21,Turtle Refuge,2,157,Ford Mustang Fastback 302cid,371,111,4/4/4,0.0
+21,Turtle Refuge,3,158,"Ford Mustang Fastback ""Miami""",601,47,4/4/4,14.0
+21,Turtle Refuge,4,159,Ford V-8 Hot Rod,367,115,4/4/4,9.1
+22,Lost Keaau House,2,235,Gumpert Apollo Sport Club Exclusive,365,155,4/4/4,74.2
+22,Lost Keaau House,3,236,Gumpert Apollo Sport Club Exclusive,365,158,4/4/4,16.2
+22,Lost Keaau House,4,237,Gumpert Apollo Sport Club Exclusive,365,157,4/4/4,2.6
+22,Lost Keaau House,5,238,Gumpert Apollo Sport Club Exclusive,365,156,4/4/4,36.7
+22,Lost Keaau House,6,239,Gumpert Apollo Sport,7852,247,4/4/4,0.3
+26,Kaiuapuieho Sun Rise,1,194,BMW M1 Procar,7057,201,4/4/4,0.8
+26,Kaiuapuieho Sun Rise,2,195,Lotus Elise GT1,8100,223,4/4/4,0.2
+26,Kaiuapuieho Sun Rise,3,196,Italdesign Nazca C2 Concept,7861,228,4/4/4,0.0
+26,Kaiuapuieho Sun Rise,4,197,Porsche 911 GT1 Straßenversion,7014,234,4/4/4,1.7
+26,Kaiuapuieho Sun Rise,6,199,"Pontiac GTO ""The Judge""",608,171,4/4/4,0.3
+27,Hui Akikiki Place,1,172,Mercedes-Benz SLK 55 AMG,204,9,4/4/4,0.0
+27,Hui Akikiki Place,2,173,Mercedes-Benz 300 SL Gullwing,206,50,4/4/4,0.0
+28,The Orient,1,186,Mercedes-Benz SLR McLaren  Stirling Moss,410,13,4/4/4,0.9
+28,The Orient,2,187,Mercedes-Benz SL 65 AMG Black Series,398,12,4/4/4,19.6
+28,The Orient,3,188,Mercedes-Benz SLS AMG,401,10,4/4/4,0.0
+28,The Orient,4,189,Mercedes-Benz SLR McLaren  Roadster 722s,415,11,4/4/4,0.0
+28,The Orient,5,190,"Mercedes-Benz SLR McLaren  Roadster 722s ""Stuart""",605,170,4/4/4,0.0
+28,The Orient,6,191,Mercedes-Benz CLK-GTR Straßenversion,7846,231,4/4/4,0.8
+28,The Orient,7,192,"Mercedes-Benz CL 65 AMG ""Solar Crown""",606,2,4/4/4,26.3
+28,The Orient,8,193,Mercedes-Benz CLK 63 AMG Black Series,381,8,4/4/4,0.0
+29,Mokuleia shack,1,74,Audi R8 LMS Race Car,7056,243,4/4/4,0.1
+30,Mineral House,1,76,Audi R15 TDI Race Car Color Edition,7053,206,4/4/4,3.5
+30,Mineral House,2,77,Audi R8 Coupé 5.2 FSI quattro,442,66,4/4/4,37.1
+30,Mineral House,3,78,Audi R8 Spyder 5.2 FSI quattro,432,116,4/4/4,0.1
+30,Mineral House,4,79,Audi R8 Coupé 4.2 FSI quattro,343,63,4/4/4,0.0
+30,Mineral House,5,80,Audi RS6 Avant,393,30,4/4/4,9.7
+30,Mineral House,6,81,Audi RS5 Coupé,660,61,4/4/4,0.0
+30,Mineral House,7,82,Audi TT RS Roadster,379,62,4/4/4,0.0
+30,Mineral House,8,83,Audi TTS Coupé,322,64,4/4/4,0.0
+31,Yacht,1,132,Ducati Desmosedici RR,1513,6,4/4/4,202.1
+31,Yacht,2,133,BMW S1000RR,7141,179,4/4/4,10.8
+31,Yacht,3,134,Kawasaki Ninja ZX-10R '06,2019,60,4/4/4,21.8
+31,Yacht,4,135,Kawasaki Ninja ZX-10R '12,7124,237,4/4/4,0.5
+31,Yacht,5,136,Ducati Diavel Carbon,1515,4,4/4/4,0.0
+31,Yacht,6,137,Harley Davidson Fat Boy Lo,6668,3,4/4/4,5.4
+32,Honolulu loft,1,252,Audi Quattro Sport S1 Group B,7029,233,4/4/4,0.2
+32,Honolulu loft,2,253,Buggy V8,314,144,4/4/4,3.0
+32,Honolulu loft,3,254,Audi Q7 V12 TDI quattro - TDU2 Inuit Edition,657,29,4/4/4,3.4
+32,Honolulu loft,4,255,"Audi Q7 V12 TDI ""Chris""",604,151,4/4/4,0.0
+32,Honolulu loft,5,256,Audi Q7 V12 TDI quattro,348,31,4/4/4,0.0
+33,Kaneohe loft,1,258,Lamborghini Veneno,7091,192,4/4/4,7.1
+33,Kaneohe loft,2,259,Lamborghini Aventador LP 700-4,318,169,4/4/4,398.7
+33,Kaneohe loft,3,260,Lamborghini Centenario LP 770-4,7957,191,4/4/4,1.2
+33,Kaneohe loft,4,261,Lamborghini Terzo Millennio Concept,8257,190,4/4/4,7.5
+33,Kaneohe loft,5,262,Lamborghini Sesto Elemento,7104,195,4/4/4,0.0
+33,Kaneohe loft,6,263,Lamborghini Essenza SCV12,8142,186,4/4/4,6.3
+34,Tropical House,1,230,Lamborghini Aventador LP 700-4,318,177,4/4/4,93.9
+34,Tropical House,2,231,Lamborghini Aventador S LP780-4 Ultimae,7080,232,4/4/4,47.4
+34,Tropical House,3,232,Lamborghini Gallardo LP 570-4 Superleggera,354,176,4/4/4,76.5
+34,Tropical House,4,233,Lamborghini Countach 5000 Quattrovalvole,281,147,4/4/4,0.0
+38,Loch stilt house,1,226,Jaguar XJ220,7007,235,4/4/4,0.6
+38,Loch stilt house,2,227,Jaguar E-Type Coupe,219,49,4/4/4,0.1
+38,Loch stilt house,3,228,Jaguar XKR,397,68,4/4/4,0.0
+38,Loch stilt house,4,229,Jaguar XKR Speed Pack and Black Pack,653,72,4/4/4,4.2
+39,Nanakuli loft,1,246,Dodge Viper SRT10 Police Hawaii,441,164,4/4/4,64.1
+39,Nanakuli loft,2,247,Dodge Viper SRT10 ACR,409,125,4/4/4,75.4
+39,Nanakuli loft,3,248,Dodge Viper SRT10,114,124,4/4/4,0.1
+39,Nanakuli loft,4,249,Dodge Viper SRT10 Police Ibiza,412,163,4/4/4,10.7
+39,Nanakuli loft,5,250,Dodge Charger SRT8,321,19,4/4/4,84.3
+39,Nanakuli loft,6,251,Chrysler 300C SRT8 Police,330,150,4/4/4,104.3
+40,Falls House,1,204,Koenigsegg Gemera,7100,207,4/4/4,0.1
+40,Falls House,2,205,Koenigsegg CCXR Edition,383,121,4/4/4,35.1
+40,Falls House,3,206,Koenigsegg CCR,7094,249,0/0/0,0.0
+40,Falls House,4,207,Koenigsegg Agera R,7095,230,4/4/4,11.2
+40,Falls House,5,208,Koenigsegg Jesko,7097,208,4/4/4,0.0
+40,Falls House,6,209,Koenigsegg Regera,8050,209,4/4/4,0.0
+40,Falls House,7,210,Koenigsegg Jesko Absolut,7146,216,4/4/4,0.0
+40,Falls House,8,211,Koenigsegg CCXR One,7098,242,4/4/4,0.0
+42,Cala Moli residence,1,52,Lancia Stratos Groupe 4 Italia Rally Edition,7022,241,4/4/4,0.1
+42,Cala Moli residence,2,53,Lancia Delta S4 Group B,7023,240,4/4/4,0.4
+42,Cala Moli residence,3,54,Lancia Stratos HF Gruppo 4,358,146,4/4/4,0.0
+43,Portinatx residence,1,16,Alfa Romeo 8C Spider,411,83,4/4/4,0.0
+43,Portinatx residence,2,17,Alfa Romeo 8C Competizione,105,84,4/4/4,0.3
+43,Portinatx residence,3,18,Alfa Romeo Brera Italia Independent,389,82,4/4/4,21.3
+43,Portinatx residence,4,19,Alfa Romeo MiTo Quadrifoglio Verde,408,81,4/4/4,14.9
+44,Sa Cala house,1,38,"Ford Mustang Fastback ""Miami""",601,27,4/4/4,0.0
+44,Sa Cala house,3,40,Volkswagen Beetle,422,145,4/4/4,0.2
+45,Zenith loft,1,20,RUF Rt 12,428,38,4/4/4,58.9
+45,Zenith loft,2,21,Porsche 918 Spyder,7016,185,4/4/4,0.0
+45,Zenith loft,3,22,RUF RGT,425,36,4/4/4,0.0
+45,Zenith loft,4,23,RUF Rturbo,423,37,4/4/4,0.0
+45,Zenith loft,5,24,RUF RK Spyder,426,35,4/4/4,0.0
+46,Salines mansion,1,56,Ferrari F430,244,141,4/4/4,131.6
+46,Salines mansion,2,57,Ferrari 599 GTB Fiorano,317,78,4/4/4,68.8
+46,Salines mansion,3,58,Ferrari 599 GTB Fiorano China Edition,652,77,4/4/4,0.0
+46,Salines mansion,4,59,Ferrari 458 Italia,391,143,4/4/4,13.0
+47,Santa Eulària residence,1,44,Ferrari 430 Scuderia Spider 16M,396,140,4/4/4,0.0
+47,Santa Eulària residence,2,45,Ferrari 430 Scuderia,369,142,4/4/4,20.7
+48,Hydro House,1,174,Ferrari F12berlinetta,230,76,4/4/4,0.0
+48,Hydro House,2,175,Ferrari 612 Sessanta,663,139,4/4/4,30.3
+48,Hydro House,3,176,Ferrari California,387,137,4/4/4,0.0
+48,Hydro House,4,177,Ferrari 612 Scaglietti,1027,138,4/4/4,0.0
+48,Hydro House,5,178,Ferrari F40,1022,149,4/4/4,19.5
+48,Hydro House,6,179,Ferrari 250 GTO,1019,148,4/4/4,0.0
+48,Hydro House,7,180,Ferrari Dino 246 GTS,326,15,4/4/4,0.0
+48,Hydro House,8,181,Ferrari 308 GTS Quattrovalvole,298,14,4/4/4,101.6
+49,Tennis House,1,140,Gemballa MIG-U1,7041,245,4/4/4,0.1
+49,Tennis House,2,141,"Ferrari FXX ""Evoluzione"" Club Exclusive",436,161,4/4/4,0.1
+49,Tennis House,3,142,"Ferrari FXX ""Evoluzione"" Club Exclusive",436,159,4/4/4,0.1
+49,Tennis House,4,143,"Ferrari FXX ""Evoluzione"" Club Exclusive",436,162,4/4/4,0.0
+49,Tennis House,5,144,"Ferrari FXX ""Evoluzione"" Club Exclusive",436,160,4/4/4,6.4
+49,Tennis House,6,145,Ferrari Enzo,1030,74,4/4/4,15.5
+49,Tennis House,7,146,Ferrari 599 GTO,434,79,4/4/4,0.0
+49,Tennis House,8,147,Ferrari 599XX,419,80,4/4/4,52.0
+53,Lumberjack house,1,60,Chrysler ME Four-Twelve,7054,220,4/4/4,0.0
+53,Lumberjack house,2,61,SSC Ultimate Aero,7891,221,4/4/4,2.3
+53,Lumberjack house,3,62,Renault Trezor Concept,7820,244,4/4/4,8.4
+54,Refuge house,1,64,B Engineering Edonis V12,7845,194,4/4/4,1.8
+54,Refuge house,2,65,Mosler MT900S,8029,189,4/4/4,2.1
+54,Refuge house,3,66,BAC Mono,356,87,4/4/4,0.1
+54,Refuge house,4,67,Mazzanti Evantra Millecavalli,7049,204,4/4/4,0.2
+55,Eivissa house,1,46,Mercedes-Benz ML 63 AMG,375,7,4/4/4,3.9
+55,Eivissa house,2,47,Jeep Grand Cherokee SRT8,324,52,4/4/4,27.8
+55,Eivissa house,3,48,Land Rover Range Rover Sport HSE,376,67,4/4/4,5.9
+55,Eivissa house,4,49,HUMMER H3,311,20,4/4/4,0.0
+55,Eivissa house,5,50,"Volkswagen Touareg V10 TDI ""Ryan""",602,73,4/4/4,14.0
+55,Eivissa house,6,51,Volkswagen Touareg V10 TDI,323,33,4/4/4,85.8
+58,Seaside apartment,1,2,Saleen S7 Twin Turbo Competition,116,127,4/4/4,362.4
+58,Seaside apartment,2,3,Saleen S5S Raptor,416,126,4/4/4,9.3
+60,Fujinoki residence,1,26,Peugeot 905 Evo 1C,8116,199,4/4/4,5.3
+60,Fujinoki residence,2,27,Volkswagen W12 Syncro,8107,203,4/4/4,1.8
+60,Fujinoki residence,3,28,Citroën GT by Citroën Concept,8233,197,4/4/4,0.0
+60,Fujinoki residence,4,29,SEAT Leon Supercopa,8102,196,4/4/4,0.0
+60,Fujinoki residence,5,30,Renault Clio RS V6,7931,198,4/4/4,11.3
+60,Fujinoki residence,6,31,Volvo S60R,7853,202,4/4/4,0.0
+61,Sant Llorenç hacienda,1,32,Spyker C12 Zagato,361,94,4/4/4,0.2
+61,Sant Llorenç hacienda,3,34,Spyker C8 Aileron,429,93,4/4/4,0.0
+61,Sant Llorenç hacienda,4,35,Spyker C8 Laviolette LM85,7839,248,0/0/0,0.0
+61,Sant Llorenç hacienda,5,36,Spyker D8 Peking-to-Paris,351,91,4/4/4,527.0
+61,Sant Llorenç hacienda,6,37,Spyker D12 Peking-to-Paris,438,92,4/4/4,5.0
